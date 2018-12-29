@@ -8,7 +8,8 @@ namespace ProgrammerSimulator
 {
     interface ITechnologiesSimulator
     {
-        IEnumerable<ITechnologie> Technologies { get; }
+        IEnumerable<ITechnology> Technologies { get; }
+        IEnumerable<IWork> Works { get; }
         void SimulateStep();
     }
 }

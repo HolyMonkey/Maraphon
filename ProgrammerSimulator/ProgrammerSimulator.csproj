@@ -42,9 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameStateMachine.cs" />
+    <Compile Include="GameUi.cs" />
     <Compile Include="ITechnologie.cs" />
     <Compile Include="ITechnologiesSimulator.cs" />
     <Compile Include="ITimeConverter.cs" />
+    <Compile Include="IWork.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
